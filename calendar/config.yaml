@@ -1,0 +1,18 @@
+notifys:
+ -
+   dings:
+        - https://oapi.dingtalk.com/robot/send?access_token=b24661fe61ee3e3c542ff789b9c213123faa1270183e056c31ff81e0a382b9e2
+        - https://oapi.dingtalk.com/robot/send?access_token=b24661fe61ee3e3c542ff789b9c213123faa1270183e056c31ff81e0a382b9e2
+   dates:
+        -
+          date: 01-25
+          solar: true
+          content: 今天是%s某人生日
+        -
+          date: 12-20
+          solar: false
+          content: 今天是%s某人生日，祝你生日快乐
+
+ -
+   ding: aasdd
+#   dates: {data: 12-02, solar: false}
